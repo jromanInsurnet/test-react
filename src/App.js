@@ -91,7 +91,7 @@ class WebcamCapture extends React.Component {
     const videoConstraints = {
       width: 224,
       height: 224,
-      facingMode: "user"
+      facingMode: "environment"
     };
 
     return (
